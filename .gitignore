@@ -1,17 +1,18 @@
 # Ignore all
-# *
+*
 # Unignore all with extensions
-# !*.*
+!*.*
 # Unignore all dirs
-# !*/
+!*/
 ### Above combination will ignore all files without extension ###
 
 #c program
 *.o
-*/*/*.o
 project1_sniff/*.o
 project1SniffingAndSpoofing/*.o
 project1Snoofing/*.o
+!Makefile
+!*/Makefile
 
 #dilated cnn 
 log/
